@@ -31,5 +31,4 @@ def rain(sky):
         if drop.isGone:
             return("no splash")
 
-
 print(rain(sky))
