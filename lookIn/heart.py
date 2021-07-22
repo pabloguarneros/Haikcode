@@ -8,6 +8,12 @@ class Love:
     def __repr__(self):
         return "Your love intensity is {}".format(self.intensity)
 
+class GayLove(Love):
+
+    def __init__(self, insecurity):
+        Love.__init__(self)
+        self.insecurity = insecurity
+
 class Heart:
 
     def __init__(self, age, sex = 3):
