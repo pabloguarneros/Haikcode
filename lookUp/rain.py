@@ -9,16 +9,6 @@ class Drop:
         self.width -= 0.02
         if self.width < 0:
             self.isGone = True
-'''
-
-class Sky:
-    def __init__(self, temp):
-        self.temp = temp
-        self.drops = []
-
-    def addDrop(self, drop):
-        self.drops.append(drop)
-'''
 
 dropA = Drop(.001)
 dropB = Drop(1)
