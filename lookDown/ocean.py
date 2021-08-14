@@ -1,4 +1,4 @@
-import random
+from random import randint
 
 
 while foam.isVisible:
@@ -8,19 +8,18 @@ while foam.isVisible:
 def rumble(seconds):
     for s in range(seconds):
         if s % 2:
-            earth.position.x += random.randint(0,2)
+            earth.position.x += randint(0,2)
         else:
-            earth.position.x -= random.randint(0,2)
+            earth.position.x -= randint(0,2)
 
 earth.rumble()
-
 
 if lake.isGlowing:
     camera.setSee(True)
 
 def conqueringFear(person, fear):
     if fear == "height":
-        person.climb(getHighestFall([23,12,31,321,31,412,34,12,321,432,321]))
+        person.climb(getHighestFall([randint(2,50) for peak in range(20)]))
 
 def getHighestFall(mountain_peaks):
     tallest_peak = 0

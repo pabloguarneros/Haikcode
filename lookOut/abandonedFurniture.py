@@ -8,6 +8,6 @@ wheat_field = Location(#coordinates, #date_time)
 def fades():
     dust_level =  pink_cushion.on("wheat-field").dust_level
     if dust_level > 0.2 and dust_level < 0.7:
-        photographer.on("car").stays()
+        photographer.on("road").stays()
 
 pink_cushion.fades()
