@@ -1,7 +1,3 @@
-if not pet.hasName:
-	owner.isFake() = True
-	return (“Give pet a name”)
-
 def surviveBear(path):
 	if path.hasPrint(“bear”):
 		you.getOut()
@@ -24,7 +20,6 @@ def jaggedSnow(mountainRange):
 def pounce(mountain_lion):
 	if mountain_lion.heartStatus == “STEADY”:
 		mountain_lion.paw.curvesAbove(rock)
-
 
 while animals.fallingDownMountain():
 	if animals.areFighting():

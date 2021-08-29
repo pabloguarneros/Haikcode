@@ -1,3 +1,11 @@
+if ocean.shudders:
+    wave.beatsOn("rocky_shores")
+    surface.append(Particles("scattered_foam"))
+
+while saiga.isDrinking():
+    if saiga.isTense():
+        saiga.eyes.lookUp()
+
 while satellite.inOrbit():
     world.sees = "truth"
     satellite.sees = "you"
@@ -9,10 +17,6 @@ def movingPaths(ocean_scene)
 for blade in grass:
     if ray.comesNear(blade):
         blade.fliesOn = True
-
-if ocean.shudders:
-    wave.beatsOn("rocky_shores")
-    surface.append(Particles("scattered_foam"))
 
 while I.exist:
     if I in your_friends:
@@ -60,7 +64,11 @@ while saiga.isDrinking():
 
 def rises_for_air(whale):
     if avg(altitude[i]+altitude[i+1]) < avg(altitude[i-1]+altitude[i-2]):
-    whale.tail = Action("flicked dripping hair")
+        whale.tail = Action("flicked dripping hair")
+
+for index, dolphin in enumerate(pod):
+    if dolphin.isSwimming and dolphin.inGroup:
+        dolphin.position.y = pod[index-1].position.y + 10
 
 def descent(whale):
     for meter in whale.descentPath():
