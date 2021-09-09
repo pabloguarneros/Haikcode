@@ -1,4 +1,4 @@
-##current poem count: 20
+##current poem count: 21
 
 def boreal_forest():
     if siberian_tiger.is_searching_for_food():
@@ -7,6 +7,8 @@ def boreal_forest():
 while flower.is_growing():
     petal.starts_forming()
     petal.awaits("bloom")
+
+
 
 def macarenia_blooms(self, sunlight):
     if sunlight.reaches(self):
@@ -81,3 +83,7 @@ def mitigate_war(bonobo_male_pair):
 if moon.is_full() and (
     forest.feels_empty):
     wolf.howls()
+
+for photon in light_ray:
+    plant.feels_warm()
+    plant.cells.mutate()

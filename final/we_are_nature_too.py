@@ -67,3 +67,4 @@ def past(self):
 while bird.moves_through("sky"):
     I.contemplate()
     life.becomes()
+
