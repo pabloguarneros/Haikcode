@@ -1,4 +1,4 @@
-##current poem count: 17
+# poem count: 20
 
 while tomorrow not in past:
 	baby.plays(on="mother's lap")
@@ -68,3 +68,16 @@ while bird.moves_through("sky"):
     I.contemplate()
     life.becomes()
 
+# unordered
+
+for leaf in grass:
+    h = Human()
+    life.append(h)
+
+if moon in sky.lights:
+    if moon.is_full():
+        return Memory()
+
+while pimple.size > 0.1:
+    if self.touches_face:
+        pimple.grow()

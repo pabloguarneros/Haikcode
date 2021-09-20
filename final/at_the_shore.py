@@ -1,5 +1,4 @@
-
-##current poem count: 17
+# current poem count: 41
 
 if ocean.shudders:
     wave.hits("rocky_shores")
@@ -70,3 +69,102 @@ while lava.streams_down():
 for algae in billion_blades_of_seagrass:
     if wave.disturbs(algae):
         algae.glows()
+
+def dream(self, him):
+    if self.get_location_description() == "desolate_beach":
+        self.generate_thoughts(of=him)
+
+if beach.has_people:
+    penguin.can_return = False
+    penguin.baby.can_eat = False
+
+def paddle(kayak):
+    for row in kayak.action:
+        river.generate_crest(height=1/row.depth)
+
+
+def create_sand(pebble):
+    for wave in coastal_agitation:
+        pebble.erode()
+
+
+if seal.is_hunting() and (
+    sun.glows):
+    shoal.resembles = "flock of diamond-studded crows"
+
+def rethink_life(ocean):
+    for c in ocean.creatures:
+        c.tags.append("#flying_dinosaur")
+
+def get_ocean_surface():
+    water_layers = deque()
+    return water_layers.pop()
+
+def found_rockstar(fish):
+    if fish.name == "marlin":
+        return True
+
+for _ in lighthouse.cycles:
+    wave_crests.glow()
+    i["hold"]="you tighter"
+
+def hitch_ride(shark, remora):
+    while shark.is_swimming():
+        remora.go_under(shark)
+
+def get_under():
+    if view.vector == [0,1] and sun in sky:
+        ocean.surface["looks_like"] = "flame trapped in glass"
+
+for jellyfish in smack:
+    jellyfish.push_forward()
+    jellyfish.relax()
+
+def manage_fluffy_ufos(jellyfish):
+    while jellyfish.contracts:
+        jellyfish.tentacles.do_the_wave()
+
+def negative_space():
+    for school_of_fish in ocean:
+        create(Distance())
+
+def find_atlantis(dreamer):
+    while not atlantis.is_found():
+        dreamer.keep_searching()
+
+def childhood(self):
+    if self.location == "beach":
+        self.biggest_dream = "build a sand castle"
+
+def agua_mala(water):
+    if "jellyfish" in water.creatures:
+        return(Sting())
+
+def wave_dance(plane, ocean):
+    if ocean.min_x <= plane.x <= ocean.max_x:
+        plane.casts(ocean,"fleeting shadow")
+
+for crab in hole.creatures:
+    if crab.feels_threat():
+        crab.searches("nook")
+
+for gust in wind:
+    if gust.carries(Sand()):
+        nostril.calms()
+
+for mark in tire_track:
+    seagull.pecks()
+    snail.explores()
+
+def verify_pangea(continents):
+    if len(continents) == 1:
+        return True
+
+def set_human_indifference(ocean):
+    if ocean.has_surface():
+        ocean.masks_life = True
+
+if lighthouse.is_abandoned():
+    form( SpiderWeb() )
+    form( SeagullNest() )
+

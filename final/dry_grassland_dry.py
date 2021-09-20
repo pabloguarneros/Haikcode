@@ -1,5 +1,5 @@
 
-##current poem count: 7
+##current poem count: 8
 
 def hunting_season(animal, place):
     if place in animal.hunting_grounds:
@@ -27,7 +27,10 @@ while dried_grass.is_burning():
 
 ## UNORDERED
 
-
 def drought(field):
     while not rain.exists():
         field.withers()
+
+def alert_food_availability(cheetah, scene):
+    if cheetah.calls and "human" not in scene:
+        cheetah.cubs.can_eat = True
